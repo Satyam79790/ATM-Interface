@@ -35,7 +35,8 @@ class ATM {
     }
 }
 
-public class Main {
+public class ATMinterface
+    {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         ATM atm = new ATM(1000, "1234");
